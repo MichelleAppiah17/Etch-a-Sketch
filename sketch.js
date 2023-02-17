@@ -42,7 +42,7 @@ function createBoard(size){
 }
 
 function getSize(){
-    let input = prompt("what should be the size of the board?");
+    let input = prompt("what size should the board be?");
     let message = document.querySelector("#message");
     if(input == ""){
         message.innerHTML = "Please provide a number";
@@ -51,7 +51,7 @@ function getSize(){
         message.innerHTML = "Provide a number betwwen 1 and 100"
     }
     else{
-        message.innerHTML = "Now you can play!"
+        message.innerHTML = "Now you can draw!"
         return input;
     }
 }
