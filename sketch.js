@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function(){
             click = !click;
             let draw = document.querySelector("#draw");
             if(click){
-                draw.innerHTML = "Now You Can Draw";
+                draw.innerHTML = "You can Draw";
             }
             else{
                 draw.innerHTML = "You Are Not Allowed To Draw";
